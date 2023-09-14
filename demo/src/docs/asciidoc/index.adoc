@@ -1,0 +1,136 @@
+= REST Doc for Supplier Test Cases
+
+:doctype: book 
+
+This document list down all sample requests and responses for rest assured test cases.
+
+
+== REST Doc for Rest Assured
+
+== Create a supplier test case
+
+A `POST` request is used to add a new supplier.
+
+HTTP Request: 
+
+include::../../../target/generated-restSnippets/test-create-supplier/http-request.adoc[]
+
+HTTP Response: 
+
+include::../../../target/generated-restSnippets/test-create-supplier/http-response.adoc[]
+
+Curl Request:
+
+include::../../../target/generated-restSnippets/test-create-supplier/curl-request.adoc[] 
+
+Request body 
+
+include::../../../target/generated-restSnippets/test-create-supplier/request-body.adoc[]
+
+Response body 
+
+include::../../../target/generated-restSnippets/test-create-supplier/response-body.adoc[] 
+
+ 
+== GET a supplier test case
+== GET All Suppliers
+A `GET` request is used to find all suppliers 
+
+HTTP Request: 
+
+include::../../../target/generated-restSnippets/test-get-all-suppliers/http-request.adoc[] 
+
+HTTP Response: 
+
+include::../../../target/generated-restSnippets/test-get-all-suppliers/http-response.adoc[] 
+
+Curl Request 
+
+include::../../../target/generated-restSnippets/test-get-all-suppliers/curl-request.adoc[] 
+
+Request body 
+
+include::../../../target/generated-restSnippets/test-get-all-suppliers/request-body.adoc[]
+
+Response body 
+
+include::../../../target/generated-restSnippets/test-get-all-suppliers/response-body.adoc[] 
+
+ 
+== Get a Supplier by ID 
+
+A `GET` request is used to get a supplier by ID 
+
+HTTP Request 
+
+include::../../../target/generated-restSnippets/test-get-supplier-by-id-existing/http-request.adoc[] 
+
+HTTP Response 
+
+include::../../../target/generated-restSnippets/test-get-supplier-by-id-existing/http-response.adoc[] 
+
+Curl Request 
+
+include::../../../target/generated-restSnippets/test-get-supplier-by-id-existing/curl-request.adoc[] 
+
+Request body 
+
+include::../../../target/generated-restSnippets/test-get-supplier-by-id-existing/request-body.adoc[] 
+
+Response body 
+
+include::../../../target/generated-restSnippets/test-get-supplier-by-id-existing/response-body.adoc[] 
+
+ 
+== Put a supplier test case
+
+A `PUT` request is used to modify an existing supplier by ID 
+
+HTTP Request: 
+
+include::../../../target/generated-restSnippets/test-update-supplier/http-request.adoc[] 
+
+HTTP Response: 
+
+include::../../../target/generated-restSnippets/test-update-supplier/http-response.adoc[] 
+
+Curl Request 
+
+include::../../../target/generated-restSnippets/test-update-supplier/curl-request.adoc[] 
+
+Request body 
+
+include::../../../target/generated-restSnippets/test-update-supplier/request-body.adoc[]
+
+Response body 
+
+include::../../../target/generated-restSnippets/test-update-supplier/response-body.adoc[] 
+
+
+== Delete the supplier test case
+
+A `Delete` request is used to delete a supplier by ID 
+
+
+HTTP Request: 
+
+include::../../../target/generated-restSnippets/test-delete-supplier/http-request.adoc[] 
+
+HTTP Response: 
+
+include::../../../target/generated-restSnippets/test-delete-supplier/http-response.adoc[] 
+
+Curl Request 
+
+include::../../../target/generated-restSnippets/test-delete-supplier/curl-request.adoc[] 
+
+Request body 
+
+include::../../../target/generated-restSnippets/test-delete-supplier/request-body.adoc[]
+
+Response body 
+
+include::../../../target/generated-restSnippets/test-delete-supplier/response-body.adoc[] 
+
+
+ 

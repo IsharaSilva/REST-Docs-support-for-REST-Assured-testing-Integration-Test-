@@ -1,0 +1,10 @@
+[source,json,options="nowrap"]
+----
+{
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 15
+}
+----

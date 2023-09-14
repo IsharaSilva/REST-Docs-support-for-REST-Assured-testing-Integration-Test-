@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'http://localhost:44365/api/suppliers/999' -i -X GET \
+    -H 'Content-Type: application/json'
+----

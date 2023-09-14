@@ -1,0 +1,78 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 14 Sep 2023 13:06:35 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Content-Length: 1405
+
+[ {
+  "name" : "UpdatedSupplier",
+  "address" : "456",
+  "contactDetails" : "1234",
+  "specialties" : "hardware",
+  "id" : 1
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 6
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 7
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 8
+}, {
+  "name" : "Supplier1",
+  "address" : null,
+  "contactDetails" : null,
+  "specialties" : null,
+  "id" : 9
+}, {
+  "name" : "Supplier1",
+  "address" : null,
+  "contactDetails" : null,
+  "specialties" : null,
+  "id" : 10
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 11
+}, {
+  "name" : "Supplier1",
+  "address" : null,
+  "contactDetails" : null,
+  "specialties" : null,
+  "id" : 12
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 13
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 14
+}, {
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 15
+} ]
+----

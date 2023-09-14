@@ -1,0 +1,12 @@
+[source,bash]
+----
+$ curl 'http://localhost:44365/api/suppliers/999' -i -X PUT \
+    -H 'Content-Type: application/json' \
+    -d '{
+  "id" : 0,
+  "name" : null,
+  "address" : "456",
+  "contactDetails" : null,
+  "specialties" : null
+}'
+----

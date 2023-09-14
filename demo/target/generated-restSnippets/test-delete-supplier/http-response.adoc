@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 204 No Content
+Date: Thu, 14 Sep 2023 13:06:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+----

@@ -1,0 +1,17 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 404 Not Found
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 14 Sep 2023 13:06:36 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Content-Length: 127
+
+{
+  "timestamp" : "2023-09-14T13:06:36.267+00:00",
+  "status" : 404,
+  "error" : "Not Found",
+  "path" : "/api/suppliers/999"
+}
+----

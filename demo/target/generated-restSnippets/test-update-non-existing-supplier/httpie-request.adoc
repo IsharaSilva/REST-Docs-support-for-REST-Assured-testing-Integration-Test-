@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ echo '{
+  "id" : 0,
+  "name" : null,
+  "address" : "456",
+  "contactDetails" : null,
+  "specialties" : null
+}' | http PUT 'http://localhost:44365/api/suppliers/999' \
+    'Content-Type:application/json'
+----

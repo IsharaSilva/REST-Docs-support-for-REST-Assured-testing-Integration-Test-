@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.ControllerRestConfig.SupplierControllerIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.098 s - in com.example.demo.ControllerRestConfig.SupplierControllerIntegrationTest

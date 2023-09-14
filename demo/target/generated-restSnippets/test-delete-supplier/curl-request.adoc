@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'http://localhost:44365/api/suppliers/3' -i -X DELETE \
+    -H 'Content-Type: application/json'
+----

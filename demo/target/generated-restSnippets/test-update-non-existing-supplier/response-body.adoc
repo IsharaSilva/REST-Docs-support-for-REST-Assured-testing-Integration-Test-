@@ -1,0 +1,9 @@
+[source,json,options="nowrap"]
+----
+{
+  "timestamp" : "2023-09-14T13:06:35.884+00:00",
+  "status" : 404,
+  "error" : "Not Found",
+  "path" : "/api/suppliers/999"
+}
+----

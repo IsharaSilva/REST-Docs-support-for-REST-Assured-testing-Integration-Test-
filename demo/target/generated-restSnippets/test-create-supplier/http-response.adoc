@@ -1,0 +1,18 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 201 Created
+Content-Type: application/json
+Transfer-Encoding: chunked
+Date: Thu, 14 Sep 2023 13:06:35 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+Content-Length: 133
+
+{
+  "name" : "NewSupplier",
+  "address" : "SupplierAddress",
+  "contactDetails" : "1234",
+  "specialties" : "software",
+  "id" : 15
+}
+----

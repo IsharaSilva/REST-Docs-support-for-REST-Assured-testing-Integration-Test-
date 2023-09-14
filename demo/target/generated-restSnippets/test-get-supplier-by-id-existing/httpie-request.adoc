@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http GET 'http://localhost:44365/api/suppliers/1' \
+    'Content-Type:application/json'
+----
